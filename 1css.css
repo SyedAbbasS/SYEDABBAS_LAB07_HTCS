@@ -1,0 +1,53 @@
+header {
+    background-image: url('https://images.pexels.com/photos/4046715/pexels-photo-4046715.jpeg?auto=compress&cs=tinysrgb&w=600.jpg'); 
+    background-color: #8ff586;
+    color: rgb(247, 138, 138);
+}
+
+header::before {
+    content: "DropDown Demo";
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #aefa90;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+.dropdown-content li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+    background-color: #e17ffa;
+}

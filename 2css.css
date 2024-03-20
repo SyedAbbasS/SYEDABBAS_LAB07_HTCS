@@ -1,0 +1,32 @@
+body {
+    background-image: url('https://images.pexels.com/photos/4046715/pexels-photo-4046715.jpeg?auto=compress&cs=tinysrgb&w=600.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 400px; 
+}
+
+.bar {
+    position: relative;
+    width: 50px;
+    background-color: steelblue;
+    transition: height 1s ease-in-out;
+}
+
+.bar span {
+    position: absolute;
+    bottom: 5px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
